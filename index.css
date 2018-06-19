@@ -192,6 +192,7 @@ background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 /*   border-radius: 5px;
   box-shadow: 5px 5px 15px -3px #e6e6e6; */
 }
@@ -437,5 +438,11 @@ footer {
     flex-basis: 30px;
     display: flex;
     align-items: center;
+}
+
+.trustee-container {
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
 }
 }
