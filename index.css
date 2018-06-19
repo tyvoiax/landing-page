@@ -417,6 +417,9 @@ footer {
    .open-menu-container {
         display: flex;
     }
+    .open-menu:hover {
+      cursor: pointer;
+    }
 /* Menu is hidden on mobile screens */
 .menu-container {
     /* display: none; */
